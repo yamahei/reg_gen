@@ -1,7 +1,8 @@
 # RegGen
 
 Generate a sample character string from a pattern like a regular expression pattern.
-ATTENTION: Escape symbol "\" may not function properly...
+
+ATTENTION: Escape symbol "\\" may not function properly...
 
 ## Installation
 
