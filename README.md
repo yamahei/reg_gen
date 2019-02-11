@@ -9,20 +9,15 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'reg_gen'
+gem 'reg_gen', :git => 'git://github.com/yamahei/reg_gen.git',
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install reg_gen
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+puts RegGen.new("[a-z][._a-z0-9]{5,8}[a-z0-9]@(hoge|fuga).(co.jp|jp|com)").gen
+#=> w.9grw6f7@hoge.com
+```
 
 ## Development
 
@@ -32,7 +27,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/reg_gen. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yamahei/reg_gen. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +35,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the RegGen project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/reg_gen/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the RegGen project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/yamahei/reg_gen/blob/master/CODE_OF_CONDUCT.md).
