@@ -15,6 +15,8 @@ gem 'reg_gen', :git => 'git://github.com/yamahei/reg_gen.git',
 ## Usage
 
 ```ruby
+puts RegGen.new("0[89]0-[0-9]{3,4}-[0-9]{4}").gen
+#=> 090-936-6615
 puts RegGen.new("[a-z][._a-z0-9]{5,8}[a-z0-9]@(hoge|fuga).(co.jp|jp|com)").gen
 #=> w.9grw6f7@hoge.com
 ```
