@@ -303,19 +303,4 @@ RSpec.describe 'RegGen' do
     end
   end
 
-
-  # it "mixed class with escape" do
-  #   regexp  = /^[.@_\-0-9a-z]$/
-
-  # it "repeat fixed" do
-  #   regexp  = /^A{3}$/
-
-  # it "repeat range" do
-  #   regexp  = /^B{3,6}$/
-
-  # it "mixed" do
-  #   regexp  = /^(Go{2,8}gle|[NMBC]intendo), (inc|ltd)\.$/
-
-  # it "ex: mail address" do
-  #   regexp  = /[a-z][._a-z0-9]{5,8}[a-z0-9]@(hoge|fuga)\.(co\.jp|jp|com)/
 end
